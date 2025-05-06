@@ -9,4 +9,10 @@ public class CombinedTable {
     public boolean canSeat(int num) {
         return one.getNumSeats() + two.getNumSeats() - 2 >= num;
     }
+
+    public double getDesirability() {
+        double avg = (one.getViewQuality() + two.getViewQuality()) / 2;
+        if(one.getHeight() == two.getHeight()) return avg;
+        return avg - 10;
+    }
 }

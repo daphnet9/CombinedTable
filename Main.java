@@ -6,5 +6,7 @@ public class Main {
         CombinedTable c1 = new CombinedTable(t1, t2);
         System.out.println(c1.canSeat(9));
         System.out.println(c1.canSeat(11));
+
+        System.out.println(c1.getDesirability());
     }
 }

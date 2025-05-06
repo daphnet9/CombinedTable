@@ -13,14 +13,14 @@ public class SingleTable {
     }
 
     public int getHeight() {
-
+        return height;
     }
 
     public double getViewQuality() {
-        
+        return viewQuality;
     }
 
     public double setViewQuality(double value) {
-
+        
     }
 }
