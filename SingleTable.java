@@ -20,7 +20,7 @@ public class SingleTable {
         return viewQuality;
     }
 
-    public double setViewQuality(double value) {
-        
+    public void setViewQuality(double value) {
+        viewQuality = value;
     }
 }
